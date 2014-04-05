@@ -1,0 +1,280 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	 -box-sizing: border-box;
+}
+
+/** {
+		outline: 1px solid black;
+	font-family: 'Gafata', sans-serif;
+}**/
+
+html {
+	min-width: 960px;
+}
+
+body {
+	background-color: #FFFF99;
+	margin: 0px;
+}	
+
+header {
+	height: 110px;
+	background-color: #ADADAD;
+	position: relative;
+}
+
+#stroke {
+	position: relative;
+	background-color: #FFFFFF;
+	bottom: 0px;
+	height: 10px;
+}
+
+#hdrcontainer {
+	width: 960px;
+	margin: auto;
+	position: relative;
+}
+
+#nav {
+	position: absolute;
+	right: 0px;
+	top: 45px;
+	font-family: 'Gafata', sans-serif;
+	font-size: 1.5em;
+}
+
+.navt:link {
+	opacity: .7;
+}
+
+.navt:hover {
+	opacity: 1;
+}
+
+#logo {
+	height: 70px;
+	position: relative;
+	left: 0px;
+	top: 20px;
+	z-index: 1;
+}
+
+a {
+	color: white;
+	margin: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#blurbkgrd {
+	width: 980px;
+	height: 360px;
+	background-color: #FFFFFF;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	display: block;
+}
+
+#formbox {
+	width: 960px;
+}
+
+#box {
+	height: 300px;
+	width: 570px;
+	position: absolute;
+	left: 30px;
+	top: 25px;
+}
+
+#formcontainer {
+	height: 300px;
+	background-color: #E6E6E6;
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	top: 25px;
+}
+
+#info {
+	margin-bottom: 10px;
+}
+
+.input {
+	display: block;
+	width: 300px;
+	border: 1px;
+	margin: 10px;
+	border: 1px solid #ADADAD;
+	padding: .25em;
+	font-family: 'Gafata', sans-serif;
+}
+
+.input:hover {
+	border: 1px solid #000000;
+}
+
+#comments {
+	width: 300px;
+	height: 140px;
+	border: 1px;
+	margin: 10px;
+	font-family: 'Gafata', sans-serif;
+	border: 1px solid #ADADAD;
+	margin-bottom: 10px;
+}
+
+#comments:hover {
+	border: 1px solid #000000;
+}
+
+#submit {
+	font-family: 'Gafata', sans-serif;
+	font-size: .875em;
+	background: #0066FF;
+	background: -webkit-linear-gradient(#005CE6, #0066FF);
+	background: -moz-linear-gradient(#005CE6, #0066FF);
+	background: -ms-linear-gradient(#005CE6, #0066FF);
+	background: -o-linear-gradient(#005CE6, #0066FF);
+	background: linear-gradient(#005CE6, #0066FF);
+	height: 50px;
+	border-radius: 2px;
+	padding: 6px 15px;
+	color: #ffffff;
+}
+
+#submit:hover {
+	text-decoration: none;
+}
+
+#bubble {
+	width: 650px;
+	background-color: #FFFFFF;
+	border: 10px solid #E6E6E6;
+	border-radius: 40px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	display: block;
+	padding: 30px;
+}
+
+#bubble2 {
+	width: 750px;
+	background-color: #FFFFFF;
+	border: 10px solid #E6E6E6;
+	border-radius: 40px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	display: block;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+.line1 {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: left;
+	display: block;
+	color: #005CE6;
+}
+
+.line2 {
+	font-family: 'Gafata', sans-serif;
+	font-size: 2em;
+	text-align: right;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 700;
+	font-family: 'Lobster', cursive;
+
+}
+
+#fpcontainer {
+	width: 980px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ADADAD;
+	border: 30px solid #FFFFFF;
+	font-family: 'Gafata', sans-serif;
+	font-size: .875em;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+
+#feats {
+	width: 400px;
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+#praise {
+	width: 400px;
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+footer {
+	height: 100px;
+	background-color: #ADADAD;
+	margin: 0px;
+	padding: 0px;
+}
+
+#fnav {
+	width: 200px;
+    margin: 0 auto 	10px;
+}
+
+#gplus {
+	background-image: url(googleplusblk.png);
+}
+
+#gplus:hover {
+	background-image: url(googleplus.png);
+}
+
+#email {
+	background-image: url(emailblk.png);
+}
+
+#email:hover {
+	background-image: url(email.png);
+}
+
+#twitter {
+	background-image: url(twitterblk.png);
+}
+
+#twitter:hover {
+	background-image: url(twitter.png);
+}
+
+.icons {
+        background-repeat: no-repeat;
+        background-size: 40px;
+		margin: 27px auto;
+		margin-left: 15px;
+		width: 40px;
+		height: 40px;
+		border: none;
+		display: inline-block;
+}
